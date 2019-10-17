@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>各种三角形的绘制</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        display: flex;
+        justify-content: space-between;
+        width: 1200px;
+        height: 400rpx;
+        margin-top: 160px;
+        margin-left: 120px;
+        padding: 120px 30px;
+      }
+      .triangle-up {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid #3cff01;
+      }
+      .triangle-down {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 100px solid #c8ff00;
+      }
+      .triangle-left {
+        width: 0;
+        height: 0;
+        border-top: 50px solid transparent;
+        border-bottom: 50px solid transparent;
+        border-right: 100px solid #ff0000;
+      }
+      .triangle-right {
+        width: 0;
+        height: 0;
+        border-top: 50px solid transparent;
+        border-bottom: 50px solid transparent;
+        border-left: 100px solid #00e1ff;
+      }
+      .triangle-topleft {
+        width: 0;
+        height: 0;
+        border-top: 100px solid #003cff;
+        border-right: 100px solid transparent;
+      }
+      .triangle-topright {
+        width: 0;
+        height: 0;
+        border-top: 100px solid #ffe600;
+        border-left: 100px solid transparent;
+      }
+      .triangle-bottomleft {
+        width: 0;
+        height: 0;
+        border-bottom: 100px solid #ff00ea;
+        border-right: 100px solid transparent;
+      }
+      .triangle-bottomright {
+        width: 0;
+        height: 0;
+        border-bottom: 100px solid #ff0000;
+        border-left: 100px solid transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="triangle-up"></div>
+      <div class="triangle-down"></div>
+      <div class="triangle-left"></div>
+      <div class="triangle-right"></div>
+      <div class="triangle-topleft"></div>
+      <div class="triangle-topright"></div>
+      <div class="triangle-bottomleft"></div>
+      <div class="triangle-bottomright"></div>
+    </div>
+  </body>
+</html>
